@@ -1,0 +1,50 @@
+section {
+    width: 1440px;
+    height: 900px;
+    margin: 20px;
+}
+
+.card {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px 0px 0 30px;
+    position: relative;
+}
+
+
+p {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+
+.value {
+    font-size: 30px;
+}
+
+.change {
+    font-size: 15px;
+}
+
+.svg {
+    position: absolute;
+    right: 30px;
+    bottom: 145px;
+}
+
+.sales {
+    background: -webkit-linear-gradient(90deg, rgb(232, 226, 15) 13%, rgb(56, 197, 22) 45%, rgb(28, 88, 206) 92%);
+
+}
+
+.orders {
+    background: linear-gradient(45deg, #30cfd0, #330867);
+}
+
+.visitors {
+    background: -webkit-linear-gradient(90deg, rgb(232, 101, 15) 4%, rgb(184, 179, 17) 51%, rgb(49, 67, 103) 100%)
+}
