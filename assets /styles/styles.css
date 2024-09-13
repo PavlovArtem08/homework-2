@@ -2,6 +2,7 @@ section {
     width: 1440px;
     height: 900px;
     margin: 20px;
+    font-family: sans-serif
 }
 
 .card {
@@ -9,18 +10,43 @@ section {
     width: 300px;
     height: 200px;
     margin: 20px;
+    border-radius: 15px;
     padding: 20px 0px 0 30px;
     position: relative;
+    overflow: hidden;
+}
+
+.card::before {
+    position: absolute;
+    content: '';
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    top: -20px;
+    left: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.199);
+    background: rgba(255, 255, 255, 0.099);
+}
+
+.card::after {
+    position: absolute;
+    content: '';
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    top: 80px;
+    left: 170px;
+    border: 1px solid rgba(255, 255, 255, 0.199);
+    background: rgba(255, 255, 255, 0.099);
 }
 
 
 p {
+    
     padding: 15px;
     font-size: 20px;
     font-weight: 600;
-
 }
-
 
 .value {
     font-size: 30px;
@@ -33,18 +59,20 @@ p {
 .svg {
     position: absolute;
     right: 30px;
-    bottom: 145px;
+    top: 20px;
 }
 
 .sales {
-    background: -webkit-linear-gradient(90deg, rgb(232, 226, 15) 13%, rgb(56, 197, 22) 45%, rgb(28, 88, 206) 92%);
-
+    background: rgb(238, 140, 36);
+    background: linear-gradient(90deg, rgba(238, 140, 36, 1) 0%, rgba(204, 53, 135, 0.9409282700421941) 72%, rgba(214, 109, 165, 1) 100%);
 }
 
 .orders {
-    background: linear-gradient(45deg, #30cfd0, #330867);
+    background: rgb(70, 145, 185);
+    background: linear-gradient(90deg, rgba(70, 145, 185, 1) 0%, rgba(36, 84, 199, 1) 53%, rgba(85, 64, 199, 1) 100%);
 }
 
 .visitors {
-    background: -webkit-linear-gradient(90deg, rgb(232, 101, 15) 4%, rgb(184, 179, 17) 51%, rgb(49, 67, 103) 100%)
+    background: rgb(96, 185, 70);
+    background: linear-gradient(90deg, rgba(96, 185, 70, 1) 0%, rgba(28, 143, 72, 1) 50%, rgba(26, 114, 119, 1) 100%);
 }
