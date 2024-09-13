@@ -1,7 +1,8 @@
+
 section {
     width: 1440px;
     height: 900px;
-    margin: 20px;
+    margin: 50px;
     font-family: sans-serif
 }
 
@@ -76,3 +77,8 @@ p {
     background: rgb(96, 185, 70);
     background: linear-gradient(90deg, rgba(96, 185, 70, 1) 0%, rgba(28, 143, 72, 1) 50%, rgba(26, 114, 119, 1) 100%);
 }
+
+
+
+
+
