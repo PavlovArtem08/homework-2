@@ -1,22 +1,27 @@
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: 300;
+}
+:root {
+    font-family: sans-serif;
+}
 section {
     width: 1440px;
-    height: 900px;
     margin: 50px;
-    font-family: sans-serif
 }
-
 .card {
     display: inline-block;
     width: 300px;
     height: 200px;
-    margin: 20px;
     border-radius: 15px;
-    padding: 20px 0px 0 30px;
+    margin: 20px;
+    padding: 20px;
     position: relative;
     overflow: hidden;
 }
-
 .card::before {
     position: absolute;
     content: '';
@@ -28,7 +33,6 @@ section {
     color: rgba(255, 255, 255, 0.199);
     background: rgba(255, 255, 255, 0.099);
 }
-
 .card::after {
     position: absolute;
     content: '';
@@ -40,45 +44,32 @@ section {
     color: rgba(255, 255, 255, 0.199);
     background: rgba(255, 255, 255, 0.099);
 }
-
-
 p {
     padding: 15px;
     font-size: 20px;
     font-weight: 600;
     color: white;
 }
-
 .value {
     font-size: 30px;
 }
-
 .change {
     font-size: 15px;
 }
-
 .svg {
     position: absolute;
     right: 30px;
-    top: 20px;
+    top: 33px;
 }
-
 .sales {
     background: rgb(238, 140, 36);
     background: linear-gradient(90deg, rgba(238, 140, 36, 1) 0%, rgba(204, 53, 135, 0.9409282700421941) 72%, rgba(214, 109, 165, 1) 100%);
 }
-
 .orders {
     background: rgb(70, 145, 185);
     background: linear-gradient(90deg, rgba(70, 145, 185, 1) 0%, rgba(36, 84, 199, 1) 53%, rgba(85, 64, 199, 1) 100%);
 }
-
 .visitors {
     background: rgb(96, 185, 70);
     background: linear-gradient(90deg, rgba(96, 185, 70, 1) 0%, rgba(28, 143, 72, 1) 50%, rgba(26, 114, 119, 1) 100%);
 }
-
-
-
-
-
